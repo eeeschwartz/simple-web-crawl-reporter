@@ -1,0 +1,5 @@
+web:
+  build: .
+  command: python crawl-website.py http://lexingtonky.gov lexingtonky.csv
+  volumes:
+   - .:/figapp
